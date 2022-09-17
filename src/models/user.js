@@ -16,4 +16,6 @@ const userSchema=mongoose.Schema({
     unique:true
   }
 },{timeStamp:true})
+
+
 module.exports=mongoose.model("user",userSchema)
